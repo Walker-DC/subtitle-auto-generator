@@ -1,0 +1,11 @@
+# Copy to 용어목록.txt (git-ignored) and edit.
+# [용어]  one term per line -> used as a recognition hint for Whisper (names, jargon).
+# [교정]  "wrong => right" -> auto-replaced in the recognized text.
+# Lines starting with '#' are ignored.
+
+[용어]
+드래곤 퀘스트
+포토피아 연쇄살인사건
+
+[교정]
+포트피아 => 포토피아
