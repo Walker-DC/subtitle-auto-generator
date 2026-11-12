@@ -1,4 +1,4 @@
-# Subtitle Automation Pipeline (자막 자동화 파이프라인)
+# Subtitle Auto Generator (자막 자동 생성기)
 
 영상(파일 또는 링크)에서 한국어 자막(`.srt` / `.vtt`)을 자동으로 만들고, Claude Code로 검수·교정까지 이어서 하는 파이프라인입니다.
 

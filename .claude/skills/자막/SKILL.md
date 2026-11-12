@@ -8,7 +8,7 @@ description: 영상(파일 경로 또는 링크)에서 한국어 자막(.srt/.vt
 인자: 영상 파일 경로 또는 http 링크 (선택: `--model medium`, 대본 경로). 인자가 없으면 `입력/` 폴더 전체.
 
 ## 1. 자막 생성
-`python3 make_subs.py <인자> --device cpu` 실행 (작업 폴더: 자막만들기).
+`python3 make_subs.py <인자> --device cpu` 실행 (작업 폴더: 자막자동생성기).
 - 대본이 `대본/영상이름.txt`에 있으면 자동 사용. 없으면 영상 음성만으로 진행(정상).
 - 사용자가 정확도를 원하면 `--model medium`. 기본 small.
 - 시간이 오래 걸리면 백그라운드로 실행하고 끝나면 확인.
